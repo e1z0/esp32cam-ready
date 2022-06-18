@@ -1,0 +1,3 @@
+#!/bin/sh
+
+esptool.py --port /dev/cu.usbserial-14310 write_flash 0x10000 .pio/build/esp32cam/firmware.bin

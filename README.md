@@ -1,5 +1,7 @@
 # esp32cam-ready
 
+This fork adds abillity to update firmware via web and some fixes, customizations.
+
 esp32-ready cam combines other projects to have an out-the-box solution to use the Chinese (7 Euro!) esp32cam module.
 Suggestions and bug fixes are welcome!
 
@@ -16,6 +18,7 @@ Using the browser, you can
 - Take a snapshot
 - Stream video
 - Turn the light on/off
+- Update device firmware
 - Remove the Wifi configuration.
 
 ## Installing and running PlatformIO

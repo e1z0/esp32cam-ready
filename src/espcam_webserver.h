@@ -4,14 +4,17 @@
 #include <OV2640.h>
 #include <rtsp_server.h>
 
+
 class espcam_webserver
 {
 private:
 	const String &instance_name_;
 	OV2640 &cam_;
 	rtsp_server rtsp_server_;
-
 	WebServer server_;
+
+	    
+
 
 	void handle_root();
 	void handle_reset();

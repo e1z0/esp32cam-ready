@@ -4,3 +4,5 @@
 .vscode/
 .vs/
 workspace.code-workspace
+ESP32-RTSP/
+rtsp-esp32cam/
